@@ -1,0 +1,36 @@
+.app-container {
+  padding: 20px 50px;
+  background-color: #161625;
+  height: 100vh;
+  overflow: auto;
+}
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.icon {
+  width: 50px;
+}
+.icon-header {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: #2cc6c6;
+}
+.description {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  color: #cbd5e1;
+}
+.vaccinatonList-container {
+  background-color: #1c1c2b;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
